@@ -5,12 +5,7 @@
 # Where x, y and z are replaced with the actual calculated numbers.
 # Warning your output should match the Example Output format exactly, even the positions of the commas and full stops.
 
-# Answer
-# 🚨 Don't change the code below 👇
 age = input("What is your current age? ")
-# 🚨 Don't change the code above 👆
-
-#Write your code below this line 👇
 y = (90 - int(age)) * 52
 x = (90 - int(age)) * 365 
 z = (90 - int(age)) * 12
