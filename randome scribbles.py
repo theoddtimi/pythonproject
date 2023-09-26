@@ -24,12 +24,31 @@
 
 ### Day 3 notes else if operations
 
-print("Welcome to the rollercoaster!")
-height = int(input("What is your height in cm? "))
+# print("Welcome to the rollercoaster!")
+# height = int(input("What is your height in cm? "))
 
 # put = sign to include 120 in the if category
-if height > 120: 
+print ("Welcome to the Rollercoaster")
+height = int(input("What is your height "))
+if height > 120:
+  bill=0
   print ("You can ride the roller coaster")
+  age = int(input("What is your age? "))
+  if age < 12:
+    bill = 5
+    print ("Child Tickets are $5.")
+  elif age <= 18 :
+    bill = 7
+    print ("Youth Tickets are $7.")
+  else:
+    bill = 12
+    print("Adult tickets are $12.")
+  wants_photo = input ("Do you want a Photo Taken? Y or N ")
+  if wants_photo =="Y":
+    #Add $3 to their Bill 
+    bill += 3
+  print (f"Your final bill is ${bill}")
+
 else:
   print ("Sorry, you have to grow taller before you can ride")
 
@@ -41,4 +60,6 @@ else:
 # == means equal to
 # != means not equal to
 #  note that 2 equal signs should be used during else if variables
+
+
 
