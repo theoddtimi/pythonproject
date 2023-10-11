@@ -34,7 +34,7 @@ else :
   elif choice == "wait":
     print = choice2 = input ("Your Patience has paid off, A boat comes that takes you to the Island where you encouter three doors with the color 'red','yellow','blue', choose one")
   else:
-    print ("Game Over !!!")
+    print ("Game Over !!")
   if  choice2 == "red":
     print ("You enter into a flaming lake of fire which burns you to death. Game   Over !!!")
   elif choice2 == "blue":
@@ -42,4 +42,4 @@ else :
   elif choice2 == "Yellow":
     print ("you won!!")
   else:
-    print ("Game Over !!!")
+    print ("Game Over !!")
