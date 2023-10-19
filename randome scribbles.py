@@ -40,6 +40,8 @@ if height > 120:
   elif age <= 18 :
     bill = 7
     print ("Youth Tickets are $7.")
+  elif age >= 45 and age <= 55:
+    print("Everything is going to be ok. Have a free ride on us!")
   else:
     bill = 12
     print("Adult tickets are $12.")
@@ -58,8 +60,13 @@ else:
 # >= means greater than or equal to
 # <= means lesser than or equal to
 # == means equal to
-# != means not equal to
+# != means not  to
 #  note that 2 equal signs should be used during else if variables
 
 
-
+#Logical Operators
+# A "and" B
+# C "or" D
+# "not"
+#
+no of t in 
